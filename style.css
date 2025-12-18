@@ -1,0 +1,25 @@
+p,
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'HelveticaNeue';
+    font-size: 9pt;
+}
+
+.info {
+    position: fixed;
+    top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+}
